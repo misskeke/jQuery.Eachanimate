@@ -14,4 +14,11 @@ $([元素集合] or jQuery选择器).eachanimate(
  *  essing [Number] 指定缓冲
  *  alldone [function] 全部执行完毕后调用
  )
+
          就是这么简单~
+ == 如何导入？ ==
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="jqui.js"></script>
+		<script type="text/javascript" src="jqui.js"></script>
+		<script type="text/javascript" src="jquery.Transit.js"></script>
+		<script type="text/javascript" src="Eachanimate.jQuery.js"></script>
