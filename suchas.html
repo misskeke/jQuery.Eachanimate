@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>插件演示</title>
+    <style type="text/css">
+        .abc{
+            background-color: rgba(0,0,0,0.2);
+            opacity: 0;
+            height: 15px;
+            background-image: url("picpic.png");
+            background-repeat: no-repeat;
+            background-position: center 0px;
+        }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jqui.js"></script>
+    <script type="text/javascript" src="jqui.js"></script>
+    <script type="text/javascript" src="jquery.Transit.js"></script>
+    <script type="text/javascript" src="Eachanimate.jQuery.js"></script>
+    <script language="JavaScript">
+        $(function(){
+            document.documentElement.onselectstart=function(){
+                return false;
+            };
+            var abcarr=$(".abc").toArray();
+            for(var i=0;i<abcarr.length;i++){
+                $(abcarr[i]).css({backgroundPosition:"center -"+String(i*15)+"px"});
+            }
+            $(abcarr).css({rotateX:"90deg",perspective:"750px"});
+            $(abcarr).eachanimate({opacity:1,rotateX:"0deg"},true,500,100,localStorage.getItem("jq_eachanimate_yes_rdn")==null,"linear",function(){});
+        });
+    </script>
+</head>
+<body>
+<div id="a" style="border: solid rgba(0,0,0,0.7) 2px;">
+    <div class="abc"></div>
+    <div class="abc"></div>
+    <div class="abc"></div>
+    <div class="abc"></div>
+    <div class="abc"></div>
+    <div class="abc"></div>
+    <div class="abc"></div>
+    <div class="abc"></div>
+    <div class="abc"></div>
+    <div class="abc"></div>
+</div>
+<pre style="display: block">
+$(function(){
+    $(".abc").css({rotateX:"90deg",perspective:"750px"});
+    $(".abc").<span style="color: #9a4230">eachanimate</span>({opacity:1,rotateX:"0deg"},true,500,100,localStorage.getItem("jq_eachanimate_yes_rdn")==null,"linear",function(){});
+});
+</pre>
+<button onclick="localStorage.setItem('jq_eachanimate_yes_rdn',true);location.reload();">不随机</button>
+<button onclick="delete localStorage.jq_eachanimate_yes_rdn;location.reload();">随机</button>
+</body>
+</html>
