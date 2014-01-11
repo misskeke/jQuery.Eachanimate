@@ -1,4 +1,4 @@
-/** Eachanimate_jQueryPlugin
+<nowiki>/** Eachanimate_jQueryPlugin
  *  Author: dorab_org->dorabar->Wangyingmao
  *  Needed: jQuery jQuery_UI jQuery_Transit(plugin)*/
 
@@ -15,4 +15,4 @@
           *  alldone [function] 全部执行完毕后调用
      )
 
-         就是这么简单~
+         就是这么简单~</nowiki>
