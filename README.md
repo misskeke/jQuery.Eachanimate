@@ -1,5 +1,5 @@
  *  Eachanimate_jQueryPlugin
- *  Author: dorab_org->dorabar->Wangyingmao
+ *  Author: dorab_org-&gt;dorabar-&gt;Wangyingmao
  *  Needed: jQuery jQuery_UI jQuery_Transit(plugin)
 
  == 对每个子元素应用动画 ==
@@ -17,8 +17,8 @@ $([元素集合] or jQuery选择器).eachanimate(
 
          就是这么简单~
  == 如何导入？ ==
-	<script type="text/javascript" src="jquery.js"></script>
-	<script type="text/javascript" src="jqui.js"></script>
-	<script type="text/javascript" src="jqui.js"></script>
-	<script type="text/javascript" src="jquery.Transit.js"></script>
-	<script type="text/javascript" src="Eachanimate.jQuery.js"></script>
+	&lt;script type="text/javascript" src="jquery.js"&gt;&lt;/script&gt;
+	&lt;script type="text/javascript" src="jqui.js"&gt;&lt;/script&gt;
+	&lt;script type="text/javascript" src="jqui.js"&gt;&lt;/script&gt;
+	&lt;script type="text/javascript" src="jquery.Transit.js"&gt;&lt;/script&gt;
+	&lt;script type="text/javascript" src="Eachanimate.jQuery.js"&gt;&lt;/script&gt;
