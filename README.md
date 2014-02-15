@@ -1,5 +1,5 @@
  *  Eachanimate_jQueryPlugin
- *  Author: dorab_org-&gt;dorabar-&gt;Wangyingmao
+ *  Author: dorab_org-&gt;dorabar-&gt;Wangtingmao
  *  Needed: jQuery jQuery_UI jQuery_Transit(plugin)
 
  == 对每个子元素应用动画 ==
